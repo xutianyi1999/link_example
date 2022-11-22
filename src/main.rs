@@ -1,4 +1,4 @@
-#[link(name = "testlib.dll", kind = "dylib")]
+#[link(name = "testlib", kind = "dylib")]
 extern "C" {
     fn sum(a: i32, b: i32) -> i32;
 }
